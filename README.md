@@ -4,9 +4,9 @@ This script runs on `Python 3` - if you do not already have it installed you can
  
 Alternatively, if you use `asdf` you can run `asdf install python 3.11.1` to get more easily download the latest stable version of `Python 3`.
 
-- Start by installing the script's dependencies by using the following command in your terminal from the project root:
+- Start by installing selenium, it is the only dependency for this script: 
 ```bash
-pip3 install -r requirements.txt
+pip3 install selenium 
 ```
 
 - Run the script: 
