@@ -10,8 +10,6 @@ recipient = input("Recipient Account: e.g. test.account+paypal99@auctane.com ")
 number_of_orders_to_create = input("How many orders do you want to create? ")
 
 browser = webdriver.Chrome()
-options = browser.create_options()
-print('Options:', options)
 browser.implicitly_wait(6)
 
 
@@ -22,6 +20,7 @@ def auto_browser() -> None:
     try:
         paypal_login()
         navigate_to_send_money()
+        sleep(1)
 
         while idx < number_of_orders:
             send_money_to_create_orders()
@@ -30,6 +29,7 @@ def auto_browser() -> None:
                 break
 
     finally:
+        print(f'{number_of_orders_to_create} orders were created!')
         browser.quit()
 
 
@@ -69,7 +69,6 @@ def navigate_to_send_money() -> None:
 
 
 def send_money() -> None:
-    sleep(1)
     send_money_input = browser.find_element(By.XPATH, '//*[@id="fn-sendRecipient"]')  # Send Money Recipient | Input
     send_money_input.clear()
     send_money_input.send_keys(recipient)
