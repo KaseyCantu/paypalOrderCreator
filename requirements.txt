@@ -1,0 +1,17 @@
+async-generator @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/fe/72/db/709736555b02c2d1ae90038b7b05138b15e24edde3aa7556fc2507a90f/async_generator-1.10-py3-none-any.whl
+attrs @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/60/64/97/56e7461ed2b27d60b2d9cc74e5424d8ee423f1f2efdfee8f10c32b8d4c/attrs-22.2.0-py3-none-any.whl
+beautifulsoup4 @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/5a/51/f6/ced036f2b2ef6b792e8138e7bd9584e5eac63a3d4481b6e62402d050c7/beautifulsoup4-4.11.1-py3-none-any.whl
+certifi @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/44/f6/3a/91506517e22c2f26f033ec833e5c78b9faffed7fc2d01dfa73129e318c/certifi-2022.12.7-py3-none-any.whl
+exceptiongroup @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/63/e8/3c/cabfcb587e49a06130c66f3321d40340e3768d95bfd544087fa5684ffc/exceptiongroup-1.1.0-py3-none-any.whl
+h11 @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/ea/3c/10/a9aa06c41c9018654100ef20b46138f8a16967be5b722a12a3f3277655/h11-0.14.0-py3-none-any.whl
+idna @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/a9/f2/65/df91fc5f4e7bf1bb8b8d4b9da51737a5fe4b70fe4f5034466ec4335ed6/idna-3.4-py3-none-any.whl
+outcome @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/9e/d4/58/1262d99bb8df65d1bbc08b1912e3c0320e6659bc3f7ad7247fa9a52504/outcome-1.2.0-py2.py3-none-any.whl
+PySocks @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/c2/d3/12/47b48dc0b521fa8aa0f8d62bddf4664901cf2ad2a109b05f73e56c6777/PySocks-1.7.1-py3-none-any.whl
+selenium @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/fb/3c/3e/2133d412427bc634465f3aff1ec950edcda4b1082daaa85d3d4f8d6c61/selenium-4.7.2-py3-none-any.whl
+sniffio @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/df/e8/7c/0fc32f1c45dbbd45dc31acd39983b0f60fdd804c913bc3352dfc9e095c/sniffio-1.3.0-py3-none-any.whl
+sortedcontainers @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/b9/80/e1/4bdfa349488797fd308ecbe48f4fad57a3245777fb47c8741730583262/sortedcontainers-2.4.0-py2.py3-none-any.whl
+soupsieve @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/b7/15/27/3ba8eed3fabe07703423999fa8c50ba16ab30344fb2670163cb6510481/soupsieve-2.3.2.post1-py3-none-any.whl
+trio @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/4e/6a/b3/d2e754f77940b591bcf77d8c6799c0ce9f44d68f79a88afb95f83044ac/trio-0.22.0-py3-none-any.whl
+trio-websocket @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/fa/9f/c4/7f077d945bf2a4a34205c5cfae57115fee0fa4b014e1d5971677b37e6c/trio_websocket-0.9.2-py3-none-any.whl
+urllib3 @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/ad/9c/cd/4c1adf9dbe0415e04fa58e0e657c4958645d3f2edd674e1ebab4a76625/urllib3-1.26.14-py2.py3-none-any.whl
+wsproto @ file:///Users/kaseycantu/Library/Caches/pypoetry/artifacts/bb/4f/7f/8c97cc7c976f953700e4e777ea0f5111f1746942ef0b2384208b256e45/wsproto-1.2.0-py3-none-any.whl
