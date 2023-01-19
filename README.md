@@ -1,5 +1,7 @@
 ## Automated Selenium PayPal Order Generator
 
+- Before getting started, you will need to be sure you run this on native resolutions e.g. your laptop screen. Selenium has issues with running properly on scaled-up resolutions.
+
 This script runs on `Python 3` - if you do not already have it installed you can get it for [MacOS](https://www.python.org/downloads/macos/) or [Windows](https://www.python.org/downloads/windows/). You can verify which version you are currently running by using `python3 --version`.
  
 Alternatively, if you use `asdf` you can run `asdf install python 3.11.1` to get more easily download the latest stable version of `Python 3`.
