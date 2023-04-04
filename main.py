@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 
 user_email = input("(Sender) Sandbox PayPal Account: ")
 user_password = input("(Sender) Sandbox PayPal Password: ")
-recipient = input("(Recipient) Account: ")
+recipient = input("(Recipient) Sandbox PayPal Account: ")
 number_of_orders_to_create = input("How many orders do you want to create? ")
 
 browser = webdriver.Chrome()
