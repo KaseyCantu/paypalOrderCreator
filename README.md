@@ -6,9 +6,14 @@ This script runs on `Python 3` - if you do not already have it installed you can
  
 Alternatively, if you use `asdf` you can run `asdf install python 3.11.1` to get more easily download the latest stable version of `Python 3`.
 
-- Start by installing selenium, it is the only dependency for this script: 
+- Start by installing the project's dependencies: 
 ```bash
-pip3 install selenium 
+pip3 install -r requirements.txt
+```
+
+or if you have `Poetry` isntalled you can run:
+```bash
+poetry install
 ```
 
 - Run the script: 

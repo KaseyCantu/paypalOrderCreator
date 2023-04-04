@@ -4,13 +4,13 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-user_email = input("Sandbox PayPal Account: ")
-user_password = input("Sandbox PayPal Password: ")
-recipient = input("Recipient Account: e.g. test.account+paypal99@auctane.com ")
+user_email = input("(Sender) Sandbox PayPal Account: ")
+user_password = input("(Sender) Sandbox PayPal Password: ")
+recipient = input("(Recipient) Account: ")
 number_of_orders_to_create = input("How many orders do you want to create? ")
 
 browser = webdriver.Chrome()
-browser.implicitly_wait(6)
+browser.implicitly_wait(10)
 
 
 def auto_browser() -> None:
@@ -87,7 +87,11 @@ def send_payment_now() -> None:
 
 
 def send_more_money() -> None:
-    browser.find_element(By.XPATH, '//a[contains(text(), "Send More Money")]').click()
+    query_element = browser.find_element(By.XPATH, '//a[contains(text(), "Send More Money")]')
+    if query_element.is_displayed():
+        query_element.click()
+    else:
+        return
 
 
 def send_money_to_create_orders() -> None:

@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "paypal_order_creator"
+version = "0.1.0"
+description = "A script to automate the creation of PayPal Sandbox Orders."
+authors = ["Kasey Cantu <kpc.software.engineer@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.11.1"
+selenium = "^4.8.3"
+selenium-async = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
