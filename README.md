@@ -11,11 +11,6 @@ Alternatively, if you use `asdf` you can run `asdf install python 3.11.1` to get
 pip3 install -r requirements.txt
 ```
 
-or if you have `Poetry` isntalled you can run:
-```bash
-poetry install
-```
-
 - Run the script: 
 ```bash
 python3 main.py
